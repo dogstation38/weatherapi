@@ -1,0 +1,47 @@
+body {
+  background: url("http://i.imgur.com/tfXMQwm.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#app {
+  width: 450px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  position: relative;
+  margin: 0 auto;
+  top: 90px;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  padding-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+#city, #state {
+  color: aqua;
+}
+
+#weather {
+ margin-top: 10px;
+}
+
+#temp {
+  color: yellow;
+}
+
+#btn {
+  margin-top: 10px;
+}
+
+img {
+  width: 70px;
+}
+
+
+
+
+a {
+  color: aqua!important;
+}

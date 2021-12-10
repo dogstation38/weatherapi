@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Weather App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:extra-light|Vast+Shadow" rel="stylesheet">
+
+  </head>
+
+  <body>
+            <div id="city">
+  {{ info }}
+</div>
+
+    <div id="app">
+      <div id="weather">
+        <span id="temp-values"> weather in :  {{location}} </span><br>
+        <span id="temp-values"> what's on :  {{overcast}} </span><br>
+        <span class="temperature"> temperature : {{currentTemp}}°</span><br>
+        <span id="temp-values">Min {{minTemp}}C <br> Max {{maxTemp}}C</span>
+      </div>
+      <div id="info">
+        <span id="temp-values"> sunrise : {{sunrise}} </span><br>
+        <span id="temp-values"> sunset : {{sunset}} </span><br>
+        <span id="temp-values"> humidity : {{humidity}} </span><br>
+        <span id="temp-values"> pressure : {{pressure}} </span><br>
+        <span id="temp-values"> wind : {{wind}} </span><br>
+
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+
+</html>
